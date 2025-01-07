@@ -2,6 +2,8 @@ Weather Web Application
 
 This repository contains the source code for a Weather Web Application developed during my Web Development internship at Prodigy InfoTech. The application provides real-time weather updates based on the user's location or a user-inputted location, offering a clean and interactive interface to display essential weather details.
 
+
+
 Features :-
 
 •	Real-Time Weather Data: Fetches weather information using a reliable weather API.
@@ -15,11 +17,16 @@ Features :-
 •	Responsive Design: Optimized for viewing across various devices.
 
 
+
+
 Technologies Used :-
+
 
 •	Frontend: HTML, CSS, JavaScript
 
 •	API Integration: OpenWeatherMap API
+
+
 
 
 How It Works :-

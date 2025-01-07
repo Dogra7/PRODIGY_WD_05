@@ -1,0 +1,119 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+    body {
+        font-family: 'Inter', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #1f1c2c, #928dab);
+        color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .container {
+        text-align: center;
+        background: rgba(30, 30, 50, 0.8);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.6);
+        max-width: 500px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #80d0c7;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    p {
+        font-size: 1rem;
+        color: #c2c2c2;
+        margin-bottom: 20px;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px 15px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        outline: none;
+        background: #2e2e42;
+        color: #fff;
+        box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    input::placeholder {
+        color: #a8a8b3;
+    }
+
+    button {
+        margin: 10px 5px;
+        padding: 12px 25px;
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        border: none;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    button:hover {
+        background: linear-gradient(135deg, #2575fc, #6a11cb);
+        transform: translateY(-3px);
+        box-shadow: 0px 10px 20px rgba(37, 117, 252, 0.4);
+    }
+
+    .weather-info {
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        background: rgba(40, 40, 60, 0.8);
+        color: #d4d4dc;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .weather-info h2 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+        color: #80d0c7;
+    }
+
+    .weather-info p {
+        margin: 5px 0;
+        color: #c2c2c2;
+    }
+
+    /* Smooth gradient border animation for buttons */
+    button:focus {
+        outline: none;
+        box-shadow: 0 0 10px 4px rgba(106, 17, 203, 0.6);
+    }
+
+    /* Media Query for smaller screens */
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 2rem;
+        }
+
+        input,
+        button {
+            font-size: 0.9rem;
+        }
+
+        .weather-info h2 {
+            font-size: 1.5rem;
+        }
+    }
+

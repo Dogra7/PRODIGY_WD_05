@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <p>Enter a location or allow access to your current location to get the weather details.</p>
+        <input type="text" id="locationInput" placeholder="Enter city name">
+        <button onclick="fetchWeather()">Get Weather</button>
+        <button onclick="fetchWeatherByLocation()">Use Current Location</button>
+
+        <div class="weather-info" id="weatherInfo"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
